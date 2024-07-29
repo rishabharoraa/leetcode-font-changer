@@ -1,5 +1,4 @@
 var interval = setInterval(() => {
-    console.log("ping")
     const codeEditors = document.getElementsByClassName("monaco-mouse-cursor-text");
 
     for(let codeEditor of codeEditors) {  
